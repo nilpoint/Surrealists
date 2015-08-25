@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		520EEFF71B8CA16E00F70E52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520EEFF61B8CA16E00F70E52 /* AppDelegate.swift */; };
+		520EEFF91B8CA16E00F70E52 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520EEFF81B8CA16E00F70E52 /* ViewController.swift */; };
+		520EEFFC1B8CA16E00F70E52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 520EEFFA1B8CA16E00F70E52 /* Main.storyboard */; };
+		520EEFFE1B8CA16E00F70E52 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 520EEFFD1B8CA16E00F70E52 /* Images.xcassets */; };
+		520EF0011B8CA16E00F70E52 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 520EEFFF1B8CA16E00F70E52 /* LaunchScreen.xib */; };
+		520EF00D1B8CA16E00F70E52 /* SurrealistsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520EF00C1B8CA16E00F70E52 /* SurrealistsTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		520EF0071B8CA16E00F70E52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 520EEFE91B8CA16E00F70E52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 520EEFF01B8CA16E00F70E52;
+			remoteInfo = Surrealists;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		520EEFF11B8CA16E00F70E52 /* Surrealists.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Surrealists.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		520EEFF51B8CA16E00F70E52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		520EEFF61B8CA16E00F70E52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		520EEFF81B8CA16E00F70E52 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		520EEFFB1B8CA16E00F70E52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		520EEFFD1B8CA16E00F70E52 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		520EF0001B8CA16E00F70E52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		520EF0061B8CA16E00F70E52 /* SurrealistsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SurrealistsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		520EF00B1B8CA16E00F70E52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		520EF00C1B8CA16E00F70E52 /* SurrealistsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurrealistsTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		520EEFEE1B8CA16E00F70E52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		520EF0031B8CA16E00F70E52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		520EEFE81B8CA16E00F70E52 = {
+			isa = PBXGroup;
+			children = (
+				520EEFF31B8CA16E00F70E52 /* Surrealists */,
+				520EF0091B8CA16E00F70E52 /* SurrealistsTests */,
+				520EEFF21B8CA16E00F70E52 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		520EEFF21B8CA16E00F70E52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				520EEFF11B8CA16E00F70E52 /* Surrealists.app */,
+				520EF0061B8CA16E00F70E52 /* SurrealistsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		520EEFF31B8CA16E00F70E52 /* Surrealists */ = {
+			isa = PBXGroup;
+			children = (
+				520EEFF61B8CA16E00F70E52 /* AppDelegate.swift */,
+				520EEFF81B8CA16E00F70E52 /* ViewController.swift */,
+				520EEFFA1B8CA16E00F70E52 /* Main.storyboard */,
+				520EEFFD1B8CA16E00F70E52 /* Images.xcassets */,
+				520EEFFF1B8CA16E00F70E52 /* LaunchScreen.xib */,
+				520EEFF41B8CA16E00F70E52 /* Supporting Files */,
+			);
+			path = Surrealists;
+			sourceTree = "<group>";
+		};
+		520EEFF41B8CA16E00F70E52 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				520EEFF51B8CA16E00F70E52 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		520EF0091B8CA16E00F70E52 /* SurrealistsTests */ = {
+			isa = PBXGroup;
+			children = (
+				520EF00C1B8CA16E00F70E52 /* SurrealistsTests.swift */,
+				520EF00A1B8CA16E00F70E52 /* Supporting Files */,
+			);
+			path = SurrealistsTests;
+			sourceTree = "<group>";
+		};
+		520EF00A1B8CA16E00F70E52 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				520EF00B1B8CA16E00F70E52 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		520EEFF01B8CA16E00F70E52 /* Surrealists */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 520EF0101B8CA16E00F70E52 /* Build configuration list for PBXNativeTarget "Surrealists" */;
+			buildPhases = (
+				520EEFED1B8CA16E00F70E52 /* Sources */,
+				520EEFEE1B8CA16E00F70E52 /* Frameworks */,
+				520EEFEF1B8CA16E00F70E52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Surrealists;
+			productName = Surrealists;
+			productReference = 520EEFF11B8CA16E00F70E52 /* Surrealists.app */;
+			productType = "com.apple.product-type.application";
+		};
+		520EF0051B8CA16E00F70E52 /* SurrealistsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 520EF0131B8CA16E00F70E52 /* Build configuration list for PBXNativeTarget "SurrealistsTests" */;
+			buildPhases = (
+				520EF0021B8CA16E00F70E52 /* Sources */,
+				520EF0031B8CA16E00F70E52 /* Frameworks */,
+				520EF0041B8CA16E00F70E52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				520EF0081B8CA16E00F70E52 /* PBXTargetDependency */,
+			);
+			name = SurrealistsTests;
+			productName = SurrealistsTests;
+			productReference = 520EF0061B8CA16E00F70E52 /* SurrealistsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		520EEFE91B8CA16E00F70E52 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = alstru.com;
+				TargetAttributes = {
+					520EEFF01B8CA16E00F70E52 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					520EF0051B8CA16E00F70E52 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 520EEFF01B8CA16E00F70E52;
+					};
+				};
+			};
+			buildConfigurationList = 520EEFEC1B8CA16E00F70E52 /* Build configuration list for PBXProject "Surrealists" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 520EEFE81B8CA16E00F70E52;
+			productRefGroup = 520EEFF21B8CA16E00F70E52 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				520EEFF01B8CA16E00F70E52 /* Surrealists */,
+				520EF0051B8CA16E00F70E52 /* SurrealistsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		520EEFEF1B8CA16E00F70E52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				520EEFFC1B8CA16E00F70E52 /* Main.storyboard in Resources */,
+				520EF0011B8CA16E00F70E52 /* LaunchScreen.xib in Resources */,
+				520EEFFE1B8CA16E00F70E52 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		520EF0041B8CA16E00F70E52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		520EEFED1B8CA16E00F70E52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				520EEFF91B8CA16E00F70E52 /* ViewController.swift in Sources */,
+				520EEFF71B8CA16E00F70E52 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		520EF0021B8CA16E00F70E52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				520EF00D1B8CA16E00F70E52 /* SurrealistsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		520EF0081B8CA16E00F70E52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 520EEFF01B8CA16E00F70E52 /* Surrealists */;
+			targetProxy = 520EF0071B8CA16E00F70E52 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		520EEFFA1B8CA16E00F70E52 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				520EEFFB1B8CA16E00F70E52 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		520EEFFF1B8CA16E00F70E52 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				520EF0001B8CA16E00F70E52 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		520EF00E1B8CA16E00F70E52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		520EF00F1B8CA16E00F70E52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		520EF0111B8CA16E00F70E52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Surrealists/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		520EF0121B8CA16E00F70E52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Surrealists/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		520EF0141B8CA16E00F70E52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SurrealistsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Surrealists.app/Surrealists";
+			};
+			name = Debug;
+		};
+		520EF0151B8CA16E00F70E52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SurrealistsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Surrealists.app/Surrealists";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		520EEFEC1B8CA16E00F70E52 /* Build configuration list for PBXProject "Surrealists" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				520EF00E1B8CA16E00F70E52 /* Debug */,
+				520EF00F1B8CA16E00F70E52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		520EF0101B8CA16E00F70E52 /* Build configuration list for PBXNativeTarget "Surrealists" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				520EF0111B8CA16E00F70E52 /* Debug */,
+				520EF0121B8CA16E00F70E52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		520EF0131B8CA16E00F70E52 /* Build configuration list for PBXNativeTarget "SurrealistsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				520EF0141B8CA16E00F70E52 /* Debug */,
+				520EF0151B8CA16E00F70E52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 520EEFE91B8CA16E00F70E52 /* Project object */;
+}
