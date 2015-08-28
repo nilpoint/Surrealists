@@ -409,6 +409,7 @@
 				520EF0121B8CA16E00F70E52 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		520EF0131B8CA16E00F70E52 /* Build configuration list for PBXNativeTarget "SurrealistsTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +418,7 @@
 				520EF0151B8CA16E00F70E52 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
